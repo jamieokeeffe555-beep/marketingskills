@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonials | GD S&C — George Delaney Strength & Conditioning</title>
+  <meta name="description" content="What clients say about training with George Delaney — from rugby players to general fitness clients." />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .tcard-large {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      position: relative;
+      transition: all var(--transition);
+    }
+    .tcard-large:hover { border-color: rgba(204,0,0,0.35); transform: translateY(-3px); }
+    .tcard-large::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
+      background: var(--red);
+      border-radius: 2px 0 0 2px;
+    }
+    .tcard-large .tcard-quote { font-size: 6rem; line-height: 0.5; margin-bottom: 1.2rem; }
+    .tcard-large p { font-size: 1rem; line-height: 1.8; color: #CCCCCC; font-style: italic; margin-bottom: 1.5rem; }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    @media (max-width: 768px) { .feature-grid { grid-template-columns: 1fr; } }
+    .mini-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; }
+    .mini-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+    }
+    .mini-card p { font-size: 0.9rem; color: #BBBBBB; font-style: italic; margin-bottom: 1rem; line-height: 1.7; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">GD<span>|</span>S&C</a>
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" class="nav-cta">Get In Touch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div class="page-hero-breadcrumb"><a href="index.html">Home</a> / Testimonials</div>
+      <div class="section-label">Client Feedback</div>
+      <h1>What People<br><span style="color:var(--red);">Are Saying</span></h1>
+      <p>From amateur rugby players to general fitness clients — here's what working with George looks like in practice.</p>
+    </div>
+  </section>
+
+  <!-- FEATURED TESTIMONIALS -->
+  <section class="section section-light">
+    <div class="section-inner">
+      <div class="feature-grid">
+
+        <div class="tcard-large fade-in">
+          <div class="tcard-quote">"</div>
+          <p>
+            I've had a few different coaches over the years, and the difference with George is that he actually thinks about what you need. Not just exercises — the reasoning, the structure, the timing across the week. I came to him as a prop at semi-pro level wanting to improve my set play power, and within four months I'd added 15kg to my squat and my carry game was genuinely stronger. He knows what he's talking about because he's living it.
+          </p>
+          <div class="tcard-author">
+            <div class="tcard-avatar">CM</div>
+            <div>
+              <div class="stars">★★★★★</div>
+              <div class="tcard-name">Connor M.</div>
+              <div class="tcard-role">Semi-Pro Rugby League Prop, Leigh area</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tcard-large fade-in fade-in-delay-1">
+          <div class="tcard-quote">"</div>
+          <p>
+            My son is 16 and genuinely serious about making it in the academy system. We looked at a few options before finding George and it was a no-brainer once we spoke to him. He understands the pathway, knows what clubs look for at that age, and is brilliant with young lads — patient, straight with them, and not at all over the top. After six months my son is noticeably stronger, faster, and moving better. More importantly he actually looks forward to training.
+          </p>
+          <div class="tcard-author">
+            <div class="tcard-avatar">PH</div>
+            <div>
+              <div class="stars">★★★★★</div>
+              <div class="tcard-name">Paul H.</div>
+              <div class="tcard-role">Parent of Under-16 Academy Player</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- SMALLER TESTIMONIALS -->
+      <div class="mini-cards">
+
+        <div class="mini-card fade-in">
+          <div class="tcard-quote" style="font-family:var(--font-heading); font-size:3.5rem; color:var(--red); opacity:0.6; line-height:0.5; margin-bottom:1rem;">"</div>
+          <p>George doesn't just hand you a programme and disappear. He explains the reasoning behind every session, which has completely changed how I approach training. Fitter, stronger, and I actually understand why now.</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="width:38px;height:38px;font-size:0.9rem;">JM</div>
+            <div>
+              <div class="stars" style="font-size:0.8rem;">★★★★★</div>
+              <div class="tcard-name" style="font-size:0.88rem;">Jamie M.</div>
+              <div class="tcard-role" style="font-size:0.75rem;">Amateur Rugby League Player, Warrington</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-card fade-in fade-in-delay-1">
+          <div class="tcard-quote" style="font-family:var(--font-heading); font-size:3.5rem; color:var(--red); opacity:0.6; line-height:0.5; margin-bottom:1rem;">"</div>
+          <p>I'd been training for years but completely plateaued. Six months in with George and my squat, conditioning, and game-day performances have all gone up. Wish I'd started earlier.</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="width:38px;height:38px;font-size:0.9rem;">RT</div>
+            <div>
+              <div class="stars" style="font-size:0.8rem;">★★★★★</div>
+              <div class="tcard-name" style="font-size:0.88rem;">Ryan T.</div>
+              <div class="tcard-role" style="font-size:0.75rem;">Academy Player, Under-18s</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-card fade-in fade-in-delay-2">
+          <div class="tcard-quote" style="font-family:var(--font-heading); font-size:3.5rem; color:var(--red); opacity:0.6; line-height:0.5; margin-bottom:1rem;">"</div>
+          <p>Came to George wanting to get fitter — no rugby background at all. He adapted everything for me and never made me feel out of place. Down-to-earth, knowledgeable, and genuinely invested in you.</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="width:38px;height:38px;font-size:0.9rem;">SB</div>
+            <div>
+              <div class="stars" style="font-size:0.8rem;">★★★★★</div>
+              <div class="tcard-name" style="font-size:0.88rem;">Sophie B.</div>
+              <div class="tcard-role" style="font-size:0.75rem;">General Fitness Client</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mini-card fade-in fade-in-delay-3">
+          <div class="tcard-quote" style="font-family:var(--font-heading); font-size:3.5rem; color:var(--red); opacity:0.6; line-height:0.5; margin-bottom:1rem;">"</div>
+          <p>The online coaching is exactly what I needed. I travel a lot for work but the programme adjusts around my schedule. George actually responds when I have questions and updates the plan based on how training is going. It feels genuinely personal.</p>
+          <div class="tcard-author">
+            <div class="tcard-avatar" style="width:38px;height:38px;font-size:0.9rem;">DK</div>
+            <div>
+              <div class="stars" style="font-size:0.8rem;">★★★★★</div>
+              <div class="tcard-name" style="font-size:0.88rem;">Dan K.</div>
+              <div class="tcard-role" style="font-size:0.75rem;">Online Coaching Client</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST INDICATORS -->
+  <section class="section">
+    <div class="section-inner" style="text-align:center; max-width:700px; margin:0 auto;" >
+      <div class="fade-in">
+        <div class="section-label">Why It Works</div>
+        <h2 class="section-title">Training With Someone<br>Who's Done It</h2>
+        <div class="section-line" style="margin:0 auto 1.5rem;"></div>
+        <p style="font-size:1.05rem; color:#BBBBBB; line-height:1.8; margin-bottom:2rem;">
+          The feedback George gets consistently points to the same thing: he knows the subject inside out, he communicates it well, and he genuinely cares about client progress. That comes from someone who has lived the process — not just studied it.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Work With George</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band fade-in">
+    <div>
+      <h2>Ready to Add Your Own?</h2>
+      <p>The next success story starts with a conversation. Get in touch and tell George what you're working towards.</p>
+      <a href="contact.html" class="btn btn-primary" style="background:#fff; color:#8B0000; border-color:#fff;">Start the Conversation</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">GD<span style="color:var(--red);">|</span>S&C</a>
+          <p>Strength &amp; conditioning from Super League prop George Delaney. Based in the North West.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <nav class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="testimonials.html">Testimonials</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h4>Follow George</h4>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.95a8.28 8.28 0 004.84 1.55V7.04a4.85 4.85 0 01-1.07-.35z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="X / Twitter">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+          </div>
+          <div style="margin-top:1.2rem; font-size:0.88rem; color:#777;">
+            📧 <a href="mailto:george@gdsc.co.uk" style="color:var(--red);">george@gdsc.co.uk</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 George Delaney Strength &amp; Conditioning. All rights reserved.</p>
+        <p>Built for <a href="#">GDSC</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
